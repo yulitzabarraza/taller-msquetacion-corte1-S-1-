@@ -1,0 +1,60 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+h1{line-height: 1.3em;
+font-size: 2rem;}
+p{margin-bottom: 1.6em;}
+.conteiner{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background:whitesmoke;
+    color: black;
+    padding: 1rem;
+
+    position: fixed;
+    left: 0;top: 0;width: 100%;
+    
+}
+.header a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+
+}
+.logo-1-nav-conteiner
+{display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.navegation ul{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegation ul li 
+{display: inline-block;} 
+.navegation ul li a 
+{display: block;
+padding: 0.5rem 1rem;
+transition: all 0.4s linear;
+border-radius: 10px;  }
+
+.navegation ul li a:hover 
+{background:rgb(252, 129, 170);
+}
+
+.footer{
+    background: grey;
+ padding: 4rem 0 ;
+ text-align: center;
+ color: white;
+}
+ 
+.main
+{padding: 10rem; }
